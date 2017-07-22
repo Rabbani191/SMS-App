@@ -1,0 +1,11 @@
+.whiteFont{
+  color:white !important;
+}
+.mainBar{
+background-color:DC572E !important;
+color:white !important;
+}
+.navbar-default .navbar-nav>.active>a{
+  background-color:white !important;
+  color:black !important;
+}

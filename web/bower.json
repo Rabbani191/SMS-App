@@ -1,0 +1,15 @@
+{
+  "name": "SMS APP",
+  "authors": [
+    "umar rabbani"
+  ],
+  "description": "Used to send messages",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular-route": "^1.6.5",
+    "angular": "^1.6.5",
+    "bootstrap": "^3.3.7"
+  }
+}

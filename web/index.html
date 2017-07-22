@@ -1,0 +1,32 @@
+<html lang="en" ng-app="smsApp">
+<head>
+  <meta charset="UTF-8">
+   <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Short URL APP</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/angular/angular-csp.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+<head>
+<body>
+  <nav class="navbar navbar-default mainBar" ng-show = 'ok' ng-cloak>
+  <div  class="container-fluid" ng-show = 'ok' ng-cloak>
+    <div class="navbar-header">
+          <a class=" whiteFont navbar-brand" href="message">SMS Managemnet System</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li ng-class="{active: activetab=='/message'}"><a class="whiteFont" ng-href="message">Send Message</a></li>
+          <li ng-class="{active: activetab=='/contact'}"><a class="whiteFont" ng-href="contact">Contacts</a></li>
+          <li ng-class="{active: activetab=='/log'}"><a class="whiteFont" ng-href="log">View Logs</a></li>
+
+        </ul>
+        <a class="whiteFont" ng-href="/" style='margin-top:15px;float:right ;text-decoration: none;'>  <i class="fa fa-sign-out" aria-hidden="true"></i>Sign Out</a>
+        </div>
+  </nav>
+  <div ng-view></div>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

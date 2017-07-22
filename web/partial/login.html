@@ -1,0 +1,27 @@
+<div class="fluid-container" >
+  <div class ='row' style ='margin-right: 0px !important'>
+    <div class="col-md-12"  >
+      <h3 style ='margin-left:24%'>Login Page</h3>
+      <span style ='color:red;margin-left:44%' ng-show ='error' ng-cloak >{{error}}</span>
+      <form ng-submit="formSubmit()" name ='user_form' class="form">
+    <div class="col-md-6" style ='margin-left:24% ;margin-top:3%'>
+      <div class="form-group" >
+        <span class="validation-msg" style='color:red' ng-show="settings.submitted && user_form.name.$error.pattern" ng-cloak>(Error: Kindly pick Letters OR combination of letters and digits)</span>
+        <span class="validation-msg" style='color:red' ng-show="settings.submitted && user_form.name.$error.required" ng-cloak>(Name is required)</span>
+        <input type="text" class="form-control" ng-model="username" name= 'name' placeholder="username"  ng-pattern="/[\a-zA-Z]+/" required=""/>
+      </div>
+
+      <div class="form-group">
+                  <span class="validation-msg" style='color:red' ng-show="settings.submitted && user_form.pass.$error.required" ng-cloak>(Password is required)</span>
+        <input type="password" class="form-control" ng-model="password" placeholder="password" name ='pass' required=""/>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="btn btn-success">Login</button>
+      </div>
+
+    </div>
+  </form>
+    </div>
+  </div>
+</div>
