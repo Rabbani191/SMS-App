@@ -6,7 +6,7 @@ var admin = {
   read: function (params){
     var d = q.defer();
     var user = underscore._.pick(params, ['admin', 'pass']);
-    console.log ('user',user);
+    console.log ('user admin',user);
 
     models.admin.findOne({
       userName: user.admin ,
@@ -16,7 +16,7 @@ var admin = {
           return d.reject(err);
          }
         else {
-           if (response === null){ 
+           if (response === null){
              console.log ('here');
              d.reject ('No user found');}
            else{
@@ -29,6 +29,4 @@ var admin = {
     }
  }
 
- module.exports = {
-   controller : admin
- };
+ module.exports = admin;

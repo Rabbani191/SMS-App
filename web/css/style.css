@@ -9,3 +9,147 @@ color:white !important;
   background-color:white !important;
   color:black !important;
 }
+
+.myrow{
+  width: 50%;
+  background-color: rgba(128, 125, 125, 0.14);
+  margin-left: 24% !important;
+}
+
+.changewidth1 {
+width:131% !important;
+
+}
+.changewidth {
+width: 110% !important;
+
+}
+.myhead{
+    margin-left: 39%!important;
+}
+.mytable{
+  height: 300px;
+  overflow-y: auto ;
+}
+.paddingTable{
+  padding-left: 80px;
+    padding-right: 80px;
+}
+/*.mytable.th{
+  font-size:13px;
+}*/
+
+.whiteFont{
+  color:white !important;
+}
+.purpleBack {
+background-color:DC572E !important;
+}
+
+.ipzr-modal {
+  height: 550px;
+}
+.ipzr-modal span.heading {
+  font-size: 2em;
+  padding-left: 7%;
+}
+.ipzr-modal form {
+  /*padding: 3%;*/
+}
+.ipzr-modal form .row-fluid .form-group label {
+  font-weight: normal;
+}
+.ipzr-modal form .row-fluid .ipzr-btn {
+  margin-left: 4%;
+}
+div.with-modal {
+  margin: 42% 0 0 2.3%;
+}
+.ie.div.with-modal {
+  margin: 42% 0 0 2.3%;
+}
+.ipzr-modal div .media {
+  padding: 4%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.ipzr-modal div .media .media-body .media-heading {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  margin-top: 5%;
+}
+#session_create .ipzr-modal div .media .media-body .media-heading {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-top: 5%;
+}
+.ipzr-modal div .media .media-body span.media-content {
+  color: white;
+  font-style: italic;
+}
+.ipzr-modal .left-pane {
+  top: 10%;
+  bottom: 10%;
+}
+.center-modal {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+}
+.modal-backdrop {
+  bottom: 0;
+  position: fixed;
+}
+#status_manage.ipzr-modal {
+  height: 485px;
+}
+.shadow-grey {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+.ipzr-btn-close {
+  width: 25px;
+  height: 25px;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background: rgb(214, 95, 25);
+  font-family: "Tahoma", Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.4em;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 2px 0px #666;
+  -moz-box-shadow: 0px 0px 2px 0px #666;
+  -webkit-box-shadow: 0px 0px 2px 0px #666;
+}
+.ipzr-btn-close:hover {
+  cursor: pointer;
+  color: rgb(214, 95, 25);
+  border: 1px solid rgb(214, 95, 25);
+  background-color: #FFFFFF;
+}
+a.ipzr-btn-close.with-modal {
+  top: 0;
+  right: -1.5%;
+  margin-top: -1.5%;
+  position: absolute;
+  padding-top: 4px;
+  font-size: 12px;
+}
+a.ipzr-btn-close.with-modal.hover a.ipzr-btn-close.with-modal:hover {
+  top: 0;
+  right: -2%;
+  margin-top: -1.5%;
+  position: absolute;
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+.font{
+  font-size: 12px;
+  /*font-weight: 100;*/
+}
